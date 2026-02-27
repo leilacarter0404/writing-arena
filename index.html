@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Writing Arena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Writing Arena</h1>
+
+    <div id="prompt-box">
+        <h3>Prompt:</h3>
+        <p id="prompt-text">Click Start to get a prompt</p>
+        <button onclick="startGame()">Start</button>
+    </div>
+
+    <div id="timer">20:00</div>
+
+    <textarea id="story" placeholder="Start writing here..." disabled></textarea>
+
+    <div id="word-count">Words: 0</div>
+
+    <button onclick="submitStory()">Submit</button>
+
+    <script src="prompts.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
