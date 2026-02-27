@@ -1,0 +1,51 @@
+body {
+    background-color: #2b1d1d;
+    color: #f5e6d3;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#prompt-box {
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 24px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 80%;
+    height: 300px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background-color: #7b2c2c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #5a1f1f;
+}
+
+#word-count {
+    margin-top: 10px;
+    font-size: 16px;
+}
